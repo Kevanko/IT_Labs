@@ -1,0 +1,11 @@
+.headText{
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+    font-size: 25;
+    margin: 0;
+    padding: 25 0;
+}
+.headBody{
+    background-color: darkred;
+}
