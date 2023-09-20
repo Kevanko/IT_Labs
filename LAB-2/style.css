@@ -1,0 +1,33 @@
+.t1 {
+    text-align: center;
+    color: darkblue;
+    margin-left: 10pt;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: Arial
+}
+.t2 {
+    text-align: center;
+    margin-top: -37pt;
+    margin-left: 8pt;
+    color: blue;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: Arial
+}
+BODY {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    margin-left: 50em;
+    margin-right: 40em;
+    background: #b6b6b6;
+}
+P {
+    background: #ffffff;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    text-indent: 15pt;
+    line-height: 2;
+    font-size: 14px;
+    border-right: 8px double #4400ff;
+}
