@@ -1,0 +1,456 @@
+.body {
+	margin: 0;
+}
+.header {
+	margin: 0;
+}
+.container {
+	margin: 0;
+}
+.header__btn {
+	text-decoration: none;
+}
+.header__top {
+	display: flex;
+	padding: 20 0% 0 0%;
+	font-size: 20px;
+	color: rgb(90, 90, 90);
+}
+.header__list {
+	max-width: 360px;
+	width: 100%;
+	display: flex;
+	margin: auto;
+}
+.header__btn {
+	padding-right: 25;
+	color: rgb(90, 90, 90);
+}
+.header__logo {
+	padding-bottom: 10;
+	margin: auto;
+}
+.header__right {
+	max-width: 360px;
+	width: 100%;
+	margin: auto;
+}
+.header__title {
+	margin: auto;
+	max-width: 600px;
+	padding-top: 50px;
+}
+.header_name {
+	font-size: 50px;
+	font-weight: bold;
+}
+.header_desc {
+	font-size: 20px;
+	padding-top: 30px;
+	text-align: center;
+	color: rgb(182, 182, 182);
+}
+.header__img {
+	padding-top: 15%;
+	max-width: 1040px;
+	margin: auto;
+}
+.services {
+	margin: 0;
+	padding-top: 100;
+	background-color: rgb(245, 245, 245);
+}
+
+.reviews {
+	margin: 0;
+}
+.services__title {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.services__cards {
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.cards__card {
+	margin-top: 40px;
+	text-align: center;
+	width: 500;
+}
+
+.cards__title {
+	padding-top: 30px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.cards__desc {
+	color: gray;
+	padding-top: 30px;
+	max-width: 300px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+.services {
+	padding-bottom: 100px;
+}
+
+.services__price {
+	border: 0;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(119, 0, 255);
+	border: 2px solid rgb(119, 0, 255);
+	border-radius: 40px;
+	width: 250px;
+	height: 40px;
+}
+
+.services__price:hover {
+	background-color: rgb(119, 0, 255);
+	color: white;
+}
+
+.discount {
+	height: 762px;
+	background-size: 100%;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		url('https://static.tildacdn.com/tild3965-3861-4039-b237-356239343061/pr-media-iuU2aZdzp_M.jpg');
+}
+
+.discount__title {
+	color: white;
+	height: 300px;
+	text-align: center;
+}
+.discount__name {
+	font-weight: bold;
+	font-size: 50px;
+	padding-top: 260px;
+	padding-bottom: 40px;
+}
+
+.discount__desc {
+	margin: auto;
+	color: rgb(230, 230, 230);
+	font-size: 20px;
+	width: 550px;
+	padding-bottom: 60px;
+}
+
+.discount__get {
+	font-weight: bold;
+	margin: auto;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 250px;
+	color: rgb(119, 0, 255);
+	border-radius: 30px;
+	background-color: white;
+}
+.discount__get:hover {
+	background-color: rgb(119, 0, 255);
+	color: white;
+}
+
+.work__title {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.work {
+	padding-bottom: 80px;
+}
+.work__block {
+	display: flex;
+	width: 600px;
+	margin: auto;
+}
+.work__block__right {
+	display: flex;
+	width: 600px;
+	padding-left: 528px;
+	margin: auto;
+}
+
+.work__text__right {
+	padding-top: 60px;
+	padding-left: 20px;
+	width: 244px;
+}
+
+.work__text__bottom {
+	margin-right: 20px;
+	padding-top: 60px;
+	width: 244px;
+	text-align: right;
+}
+
+.work__text {
+	margin-right: 20px;
+	text-align: right;
+	width: 244px;
+}
+
+.work__name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.work__desc {
+	font-size: 16px;
+	color: gray;
+}
+.work__name {
+	padding-bottom: 20px;
+}
+
+.work__thread {
+	color: gray;
+}
+
+.work__circle {
+	width: 50px;
+	height: 50px;
+	border: 2px solid gray;
+	border-radius: 100%;
+	line-height: 15px;
+}
+.work__num {
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+.work__line_top {
+	width: 2px;
+	height: 50px;
+	background-color: gray;
+	margin: auto;
+}
+.work__line_bottom {
+	width: 2px;
+	height: 55px;
+	background-color: gray;
+	margin: auto;
+}
+
+.reviews {
+	padding-bottom: 80px;
+	padding-top: 80px;
+	background-color: rgb(245, 243, 243);
+}
+
+.reviews__title {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.reviews__all {
+	margin-left: 15%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.reviews__block {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 600px;
+	height: 144px;
+	padding: 0 20px;
+	margin-bottom: 150px;
+}
+
+.reviews__revie {
+	background-color: white;
+	font-size: 20px;
+	padding: 20px;
+	color: gray;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.reviews__name {
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.reviews__job {
+	padding-left: 20px;
+	color: gray;
+}
+
+.reviews__triangle {
+	margin-left: 30px;
+	display: inline;
+	border-top: 30px solid white;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+}
+
+.question__title {
+	padding-top: 80px;
+	font-size: 40;
+	font-weight: bold;
+	text-align: center;
+}
+.question_img {
+	margin-right: 20px;
+}
+.question__title {
+	margin-bottom: 60px;
+}
+
+.question__list {
+	margin-left: 30%;
+}
+
+.question__text {
+	display: inline;
+	width: 555px;
+}
+
+.question__block {
+	width: 900px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+
+.question__name {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.question__desc {
+	color: gray;
+}
+
+.question {
+	padding-bottom: 80px;
+}
+
+.trust {
+	height: 770px;
+	background-size: 100%;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		url('https://static.tildacdn.com/tild3439-3061-4365-b562-616231393863/insung-yoon-dRUqU4Rp.jpg');
+}
+
+.trust__title {
+	position: relative;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 300px;
+	margin: auto;
+	width: 800px;
+}
+
+.basement {
+	background-color: rgb(22, 22, 22);
+	text-align: center;
+}
+
+.basement__logo {
+	padding-top: 90px;
+	padding-bottom: 40px;
+}
+.basement__name {
+	color: rgb(146, 146, 146);
+	padding-bottom: 10px;
+}
+.basement__email {
+	color: rgb(160, 108, 65);
+	padding-bottom: 90px;
+}
+
+.facts__img {
+	display: inline;
+	position: relative;
+	height: 500px;
+	width: 550px;
+	background-size: 110%;
+	background-image: url('https://static.tildacdn.com/tild3630-6531-4534-a133-326432643735/revendo-54hQj1YmSXw-.png');
+}
+.facts__text {
+	width: 550px;
+	padding-right: 50px;
+}
+.facts__block {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20%;
+}
+
+.facts__title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.facts__desc {
+	display: inline;
+	color: gray;
+	font-size: 20px;
+}
+
+.facts__button__circle__left {
+	margin-top: 220px;
+	margin-left: 40px;
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+}
+
+.facts__button__triangle__left {
+	transform: rotate(45deg);
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+	margin-left: 12px;
+	border-left: 1px solid blue;
+	border-bottom: 1px solid blue;
+	background-color: transparent;
+}
+
+.facts__button__circle__right {
+	margin-top: -30px;
+	margin-left: 460px;
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+}
+
+.facts__button__triangle__right {
+	transform: rotate(225deg);
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+	margin-left: 8px;
+	border-left: 1px solid blue;
+	border-bottom: 1px solid blue;
+	background-color: transparent;
+}
