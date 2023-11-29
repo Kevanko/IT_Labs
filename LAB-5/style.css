@@ -1,0 +1,601 @@
+.list {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(2px);
+	color: rgb(10, 1, 17);
+}
+
+.list__block {
+	background-image: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, 0.7),
+			rgba(187, 120, 250, 0.7)
+		),
+		url('https://static.tildacdn.com/tild3965-3861-4039-b237-356239343061/pr-media-iuU2aZdzp_M.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 40%;
+	height: 80%;
+	background-color: white;
+	border: 2px solid rgb(139, 0, 253);
+	border-radius: 10px;
+}
+.list__cap {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+}
+.list__text {
+	color: rgb(0, 0, 0);
+	font-size: 35px;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.list__close {
+	margin: 10px 10px;
+	width: 40px;
+	height: 20px;
+	border-radius: 8px;
+	border: 1px solid rgb(15, 15, 15);
+	background-color: rgb(230, 223, 223);
+}
+
+.list__close:hover {
+	background-color: red;
+	cursor: pointer;
+}
+.list__service {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: 2px solid white;
+	border-radius: 10px;
+	backdrop-filter: blur(15px);
+	margin: 10px 15px;
+}
+.list__service:hover {
+	font-size: 20px;
+	padding: 10px;
+}
+.list__service__img {
+	width: 50px;
+	height: 50px;
+}
+
+.list__btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list__btn__text {
+	background-color: white;
+	color: rgb(139, 0, 253);
+	border-radius: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid rgb(139, 0, 253);
+	height: 40px;
+	width: 200px;
+	padding-top: 18px;
+	text-align: center;
+}
+
+.list__btn__text:hover {
+	cursor: pointer;
+	color: white;
+	background-color: rgb(139, 0, 253);
+}
+.list__form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	backdrop-filter: blur(15px);
+	border-radius: 10px;
+	border: 2px solid white;
+	margin: 10px 15px;
+	padding: 5px 0px;
+}
+.list__formbox {
+	display: flex;
+	flex-direction: column;
+}
+
+.list__master {
+	color: black;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	width: 120px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+input {
+	height: 30px;
+	width: 200px;
+	margin: 10px 0px;
+	border-radius: 5px;
+	text-align: center;
+	border: 0;
+}
+
+input:focus {
+	border: 2px solid rgb(139, 0, 253);
+	outline: 0;
+}
+
+.blur {
+	filter: blur(4px);
+}
+.header {
+	margin: 0;
+}
+.container {
+	margin: 0;
+}
+.header__btn {
+	text-decoration: none;
+}
+.header__top {
+	display: flex;
+	padding: 20 0% 0 0%;
+	font-size: 20px;
+	color: rgb(90, 90, 90);
+}
+.header__list {
+	max-width: 360px;
+	width: 100%;
+	display: flex;
+	margin: auto;
+}
+.header__btn {
+	padding-right: 25;
+	color: rgb(90, 90, 90);
+}
+.header__logo {
+	padding-bottom: 10;
+	margin: auto;
+}
+.header__right {
+	max-width: 360px;
+	width: 100%;
+	margin: auto;
+}
+.header__title {
+	margin: auto;
+	max-width: 600px;
+	padding-top: 50px;
+}
+.header_name {
+	font-size: 50px;
+	font-weight: bold;
+}
+.header_desc {
+	font-size: 20px;
+	padding-top: 30px;
+	text-align: center;
+	color: rgb(182, 182, 182);
+}
+.header__img {
+	padding-top: 15%;
+	max-width: 1040px;
+	margin: auto;
+}
+.services {
+	margin: 0;
+	padding-top: 100;
+	background-color: rgb(245, 245, 245);
+}
+
+.reviews {
+	margin: 0;
+}
+.services__title {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.services__cards {
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.cards__card {
+	margin-top: 40px;
+	text-align: center;
+	width: 500;
+}
+
+.cards__title {
+	padding-top: 30px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.cards__desc {
+	color: gray;
+	padding-top: 30px;
+	max-width: 300px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+.services {
+	padding-bottom: 100px;
+}
+
+.services__price {
+	border: 0;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(119, 0, 255);
+	border: 2px solid rgb(119, 0, 255);
+	border-radius: 40px;
+	width: 250px;
+	height: 40px;
+}
+
+.services__price:hover {
+	cursor: pointer;
+	background-color: rgb(119, 0, 255);
+	color: white;
+}
+
+.discount {
+	height: 760px;
+	background-size: 100%;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		url('https://static.tildacdn.com/tild3965-3861-4039-b237-356239343061/pr-media-iuU2aZdzp_M.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.discount__title {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+.discount__name {
+	font-weight: bold;
+	font-size: 50px;
+	padding-bottom: 20px;
+	max-width: 600px;
+}
+
+.discount__desc {
+	color: rgb(230, 230, 230);
+	font-size: 20px;
+	padding-bottom: 100px;
+	max-width: 600px;
+}
+
+.discount__get {
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 250px;
+	color: rgb(119, 0, 255);
+	border-radius: 30px;
+	background-color: white;
+}
+.discount__get:hover {
+	cursor: pointer;
+	background-color: rgb(119, 0, 255);
+	color: white;
+}
+
+.work__title {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.work {
+	padding-bottom: 80px;
+}
+.work__block {
+	display: flex;
+	justify-content: center;
+	margin-right: 270px;
+}
+.work__block--right {
+	display: flex;
+	justify-content: center;
+	margin-left: 270px;
+}
+.work__cool {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.work__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 20px;
+	text-align: right;
+	width: 250px;
+}
+
+.work__name {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.work__desc {
+	font-size: 16px;
+	color: gray;
+}
+
+.work__thread {
+	color: gray;
+	width: 50px;
+}
+
+.work__circle {
+	width: 50px;
+	height: 50px;
+	border: 2px solid gray;
+	border-radius: 100%;
+	line-height: 15px;
+}
+.work__num {
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+.work__line {
+	width: 2px;
+	height: 50px;
+	background-color: gray;
+	margin: auto;
+}
+
+.reviews {
+	padding-bottom: 80px;
+	padding-top: 80px;
+	background-color: rgb(245, 243, 243);
+}
+
+.reviews__title {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.reviews__all {
+	margin-left: 15%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.reviews__block {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 600px;
+	height: 144px;
+	padding: 0 20px;
+	margin-bottom: 150px;
+}
+
+.reviews__revie {
+	background-color: white;
+	font-size: 20px;
+	padding: 20px;
+	color: gray;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.reviews__name {
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.reviews__job {
+	padding-left: 20px;
+	color: gray;
+}
+
+.reviews__triangle {
+	margin-left: 30px;
+	display: inline;
+	border-top: 30px solid white;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+}
+
+.question__title {
+	padding-top: 80px;
+	font-size: 40;
+	font-weight: bold;
+	text-align: center;
+}
+.question_img {
+	margin-right: 20px;
+}
+.question__title {
+	margin-bottom: 60px;
+}
+
+.question__list {
+	margin-left: 30%;
+}
+
+.question__text {
+	display: inline;
+	width: 555px;
+}
+
+.question__block {
+	width: 900px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+
+.question__name {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.question__desc {
+	color: gray;
+}
+
+.question {
+	padding-bottom: 80px;
+}
+
+.trust {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 770px;
+	background-size: 100%;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		url('https://static.tildacdn.com/tild3439-3061-4365-b562-616231393863/insung-yoon-dRUqU4Rp.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.trust__title {
+	width: 600px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 40;
+}
+
+.basement {
+	background-color: rgb(22, 22, 22);
+	text-align: center;
+}
+
+.basement__logo {
+	padding-top: 90px;
+	padding-bottom: 40px;
+}
+.basement__name {
+	color: rgb(146, 146, 146);
+	padding-bottom: 10px;
+}
+.basement__email {
+	color: rgb(160, 108, 65);
+	padding-bottom: 90px;
+}
+
+.facts__img {
+	display: inline;
+	height: 500px;
+	width: 550px;
+	background-size: 110%;
+	background-image: url('https://static.tildacdn.com/tild3630-6531-4534-a133-326432643735/revendo-54hQj1YmSXw-.png');
+}
+.facts__text {
+	width: 550px;
+	padding-right: 50px;
+}
+.facts__block {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20%;
+}
+
+.facts__title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.facts__desc {
+	display: inline;
+	color: gray;
+	font-size: 20px;
+}
+
+.facts__button__circle__left {
+	margin-top: 220px;
+	margin-left: 40px;
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+}
+
+.facts__button__triangle__left {
+	transform: rotate(45deg);
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+	margin-left: 12px;
+	border-left: 1px solid blue;
+	border-bottom: 1px solid blue;
+	background-color: transparent;
+}
+
+.facts__button__circle__right {
+	margin-top: -30px;
+	margin-left: 460px;
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+}
+
+.facts__button__triangle__right {
+	transform: rotate(225deg);
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+	margin-left: 8px;
+	border-left: 1px solid blue;
+	border-bottom: 1px solid blue;
+	background-color: transparent;
+}
