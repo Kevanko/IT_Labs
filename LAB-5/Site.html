@@ -14,97 +14,26 @@
 
 	<body>
 		<div class="site">
-			<div class="list">
-				<div class="list__block">
-					<div class="list__cap">
-						<p class="list__text">Стоймость Услуг</p>
-						<div class="list__close"></div>
-					</div>
-					<div class="list__bgImg"></div>
-					<div class="list__service">
-						<img
-							class="list__service__img"
-							src="https://cdn-icons-png.flaticon.com/512/884/884035.png"
-						/>
-						<div class="list__service__name">Диагностика устройства</div>
-						<div class="list__service__price">500р</div>
-					</div>
-					<div class="list__service">
-						<img
-							class="list__service__img"
-							src="https://cdn-icons-png.flaticon.com/512/36/36384.png"
-						/>
-						<div class="list__service__name">Ремонт телефонов</div>
-						<div class="list__service__price">от 1000р</div>
-					</div>
-					<div class="list__service">
-						<img
-							class="list__service__img"
-							src="https://img2.freepng.ru/20180405/gxe/kisspng-laptop-computer-repair-technician-computer-icons-m-black-and-white-5ac5b18e39dd42.688869121522905486237.jpg"
-						/>
-						<div class="list__service__name">Ремонт Ноутбуков</div>
-						<div class="list__service__price">от 3000р</div>
-					</div>
-					<div class="list__service">
-						<img
-							class="list__service__img"
-							src="https://cdn.icon-icons.com/icons2/3170/PNG/512/electronic_repair_service_desktop_pc_icon_193585.png"
-						/>
-						<div class="list__service__name">Ремонт Пк</div>
-						<div class="list__service__price">от 2000р</div>
-					</div>
-					<div class="list__service">
-						<img
-							class="list__service__img"
-							src="https://w7.pngwing.com/pngs/659/60/png-transparent-computer-icons-computer-repair-technician-maintenance-laptop-system-electronics-computer-automobile-repair-shop.png"
-						/>
-						<div class="list__service__name">Ремонт остальных гаджетов</div>
-						<div class="list__service__price">от 1000р</div>
-					</div>
-					<div class="list__form">
-						<div class="list__master">
-							Необходимо заполнить формы для связи с мастером
-						</div>
-						<div class="list__formbox">
-							<form>
-								<input type="text" placeholder="Ваше имя" />
-							</form>
-							<form>
-								<input
-									type="number"
-									step="1"
-									min="1"
-									max="27"
-									name="quantity"
-									value="1"
-									class="input-text qty text"
-									size="4"
-									placeholder="Ваш номер телефона"
-								/>
-							</form>
-						</div>
-						<div class="list__btn">
-							<p class="list__btn__text">Вызвать мастера</p>
-							<div class="list__btn__bg"></div>
-						</div>
-					</div>
-				</div>
+			<div class="call">
+				<div class="call__succes">Ожидайте звонка</div>
+				<div class="call__bad">Ошибка</div>
 			</div>
 			<div class="header">
 				<div class="container">
 					<div class="header__top">
 						<div class="header__list">
-							<a class="header__btn" href="">Услуги</a>
-							<a class="header__btn" href="">Отзывы</a>
-							<a class="header__btn" href="">Цены</a>
-							<a class="header__btn" href="">Контакты</a>
+							<a class="header__Sbtn" href="#">Услуги</a>
+							<a class="header__Rbtn" href="#">Отзывы</a>
+							<a class="header__Pbtn" href="#">Цены</a>
+							<a class="header__Cbtn" href="#">Контакты</a>
 						</div>
-						<img
-							class="header__logo"
-							src="https://static.tildacdn.com/tild3538-6536-4265-a137-303437383962/starArtboard4.svg"
-							style="max-width: 60px"
-						/>
-						<div class="header__right">Звоните: 8 (999) 99 999 99</div>
+						<div class="header__logoContainer">
+							<img
+								class="header__logo"
+								src="https://static.tildacdn.com/tild3538-6536-4265-a137-303437383962/starArtboard4.svg"
+							/>
+						</div>
+						<div class="header__right">Звоните: +7 (985) 9249793</div>
 					</div>
 					<div class="header__title">
 						<div class="header_name">Ремонт цифровой техники</div>
@@ -113,12 +42,12 @@
 							гарантией и бесплатной диагностикой.
 						</div>
 					</div>
-					<p class="header__img">
+					<div class="header__imgContainer">
 						<img
+							class="header__img"
 							src="https://static.tildacdn.com/tild3162-6436-4265-b161-643861303263/2Artboard1copy5.png"
-							style="max-width: 1040px"
 						/>
-					</p>
+					</div>
 				</div>
 			</div>
 			<div class="services">
@@ -363,6 +292,84 @@
 					</div>
 				</div>
 			</div>
+			<div class="list">
+				<div class="list__block">
+					<div class="list__cap">
+						<p class="list__text">Стоймость Услуг</p>
+					</div>
+					<div class="list__bgImg"></div>
+					<div class="list__service">
+						<img
+							class="list__service__img"
+							src="https://cdn-icons-png.flaticon.com/512/884/884035.png"
+						/>
+						<div class="list__service__name">Диагностика устройства</div>
+						<div class="list__service__price">500р</div>
+					</div>
+					<div class="list__service">
+						<img
+							class="list__service__img"
+							src="https://cdn-icons-png.flaticon.com/512/36/36384.png"
+						/>
+						<div class="list__service__name">Ремонт телефонов</div>
+						<div class="list__service__price">от 1000р</div>
+					</div>
+					<div class="list__service">
+						<img
+							class="list__service__img"
+							src="https://img2.freepng.ru/20180405/gxe/kisspng-laptop-computer-repair-technician-computer-icons-m-black-and-white-5ac5b18e39dd42.688869121522905486237.jpg"
+						/>
+						<div class="list__service__name">Ремонт Ноутбуков</div>
+						<div class="list__service__price">от 3000р</div>
+					</div>
+					<div class="list__service">
+						<img
+							class="list__service__img"
+							src="https://cdn.icon-icons.com/icons2/3170/PNG/512/electronic_repair_service_desktop_pc_icon_193585.png"
+						/>
+						<div class="list__service__name">Ремонт Пк</div>
+						<div class="list__service__price">от 2000р</div>
+					</div>
+					<div class="list__service">
+						<img
+							class="list__service__img"
+							src="https://w7.pngwing.com/pngs/659/60/png-transparent-computer-icons-computer-repair-technician-maintenance-laptop-system-electronics-computer-automobile-repair-shop.png"
+						/>
+						<div class="list__service__name">Ремонт остальных гаджетов</div>
+						<div class="list__service__price">от 1000р</div>
+					</div>
+					<div class="list__form">
+						<div class="list__master">
+							Необходимо заполнить формы для связи с мастером
+						</div>
+						<div class="list__formbox">
+							<form>
+								<input
+									type="text"
+									class="list__inputName"
+									placeholder="Ваше имя"
+								/>
+							</form>
+							<form>
+								<input
+									type="number"
+									step="1"
+									min="1"
+									max="27"
+									name="quantity"
+									class="list__inputPhone"
+									size="4"
+									placeholder="Ваш номер телефона"
+								/>
+							</form>
+						</div>
+						<div class="list__btn">
+							<p class="list__btn__text">Вызвать мастера</p>
+							<div class="list__btn__bg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="facts">
 				<div class="container">
 					<div class="facts__block">
@@ -380,17 +387,37 @@
 								мы поможем решить вашу проблему!
 							</div>
 						</div>
-						<div class="facts__img">
-							<class class="facts__button">
-								<div class="facts__button__circle__left">
-									<div class="facts__button__triangle__left"></div>
-								</div>
-							</class>
-							<class class="facts__button">
-								<div class="facts__button__circle__right">
-									<div class="facts__button__triangle__right"></div>
-								</div>
-							</class>
+						<div class="facts__imgblock">
+							<div class="facts__imgs">
+								<img
+									class="facts__picture"
+									src="https://static.tildacdn.com/tild3630-6531-4534-a133-326432643735/revendo-54hQj1YmSXw-.png"
+								/>
+								<img
+									class="facts__picture"
+									src="https://static.tildacdn.com/tild3631-3161-4862-a461-383833316164/kilian-seiler-PZLgTU.jpg"
+								/>
+								<img
+									class="facts__picture"
+									src="https://cdn.iz.ru/sites/default/files/styles/1920x1080/public/article-2020-08/RIAN_6253596.HR_.ru%205.jpg?itok=290Gvg-F"
+								/>
+								<img
+									class="facts__picture"
+									src="https://cs9.pikabu.ru/post_img/big/2018/01/30/5/1517298076171592978.jpg"
+								/>
+							</div>
+							<div class="facts__left">
+								<div class="facts__Larrow"></div>
+							</div>
+							<div class="facts__right">
+								<div class="facts__Rarrow"></div>
+							</div>
+							<div class="facts__circles">
+								<div class="facts__circle"></div>
+								<div class="facts__circle"></div>
+								<div class="facts__circle"></div>
+								<div class="facts__circle"></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -403,7 +430,8 @@
 						style="width: 120px"
 					/>
 					<div class="basement__name">© All Rights Reserved. Acme Inc.</div>
-					<div class="basement__email">hello@mysite.com</div>
+					<div class="basement__name">Телефон: +7 (985) 9249793</div>
+					<div class="basement__email">Почта: hello@mysite.com</div>
 				</div>
 			</div>
 		</div>
